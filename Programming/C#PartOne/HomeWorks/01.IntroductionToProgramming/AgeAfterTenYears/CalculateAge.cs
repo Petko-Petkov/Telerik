@@ -9,8 +9,6 @@ namespace AgeAfterTenYears
     {
         static void Main()
         {
-            Console.WriteLine("Enter your age in the format yyyy.MM.dd: ");
-
             DateTime birthDay = DateTime.Parse(Console.ReadLine());
             DateTime today = DateTime.Now;
 
@@ -21,7 +19,8 @@ namespace AgeAfterTenYears
                 age--;
             }
 
-            Console.WriteLine("Your age is {0}. After ten years you will be {1} .", age, age + 10);
+            Console.WriteLine(age);
+            Console.WriteLine(age + 10);
         }
     }
 }

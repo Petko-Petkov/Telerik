@@ -10,7 +10,8 @@ namespace PrintLongSequence
         {
             for (int i = 2, j = -3; i < 1002; i+=2, j-=2)
             {
-                Console.Write("{0}, {1}, ", i, j);
+                Console.WriteLine(i);
+                Console.WriteLine(j);
             }
         }
     }

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.SpiralMatrix", "SpiralMatrix\17.SpiralMatrix.csproj", "{2C969A1F-3EA9-4899-82A2-7A8E4AD02F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.TrailingZeroes", "TrailingZeroes\16.TrailingZeroes.csproj", "{BFBB1D88-B4C2-4C89-9BBD-BFBE9436EE31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C969A1F-3EA9-4899-82A2-7A8E4AD02F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C969A1F-3EA9-4899-82A2-7A8E4AD02F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C969A1F-3EA9-4899-82A2-7A8E4AD02F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C969A1F-3EA9-4899-82A2-7A8E4AD02F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBB1D88-B4C2-4C89-9BBD-BFBE9436EE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBB1D88-B4C2-4C89-9BBD-BFBE9436EE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBB1D88-B4C2-4C89-9BBD-BFBE9436EE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBB1D88-B4C2-4C89-9BBD-BFBE9436EE31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
