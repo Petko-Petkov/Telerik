@@ -6,8 +6,8 @@
     {
         static void Main(string[] args)
         {
-            int first = int.Parse(Console.ReadLine());
-            int second = int.Parse(Console.ReadLine());
+            double first = double.Parse(Console.ReadLine());
+            double second = double.Parse(Console.ReadLine());
 
             Console.WriteLine(Math.Max(first, second));
         }

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Circle", "Circle\03.Circ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SumThreeNumbers", "SumThreeNumbers\01.SumThreeNumbers.csproj", "{77C2A7AA-54F2-49C0-9E7A-2111AEE0AEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CompanyInfo", "CompanyInfo\02.CompanyInfo.csproj", "{FFF1E56A-225A-4543-8890-8BD403CE66E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{77C2A7AA-54F2-49C0-9E7A-2111AEE0AEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77C2A7AA-54F2-49C0-9E7A-2111AEE0AEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77C2A7AA-54F2-49C0-9E7A-2111AEE0AEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF1E56A-225A-4543-8890-8BD403CE66E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF1E56A-225A-4543-8890-8BD403CE66E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF1E56A-225A-4543-8890-8BD403CE66E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF1E56A-225A-4543-8890-8BD403CE66E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
