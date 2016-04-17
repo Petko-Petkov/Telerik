@@ -18,20 +18,18 @@ namespace TrailingZeroes
             }
 
             int count = 0;
+            string str = result.ToString();
 
-            while (true)
+            for (int i = str.Length - 1; i > 0; i--)
             {
-                var lastNum = result % 10;
-
-                if (lastNum != 0)
+                if (str[i] != '0')
                 {
                     break;
                 }
 
-                count++;
-                result /= 10;
+                count += 1;
             }
-
+            
             Console.WriteLine(count);
         }
     }

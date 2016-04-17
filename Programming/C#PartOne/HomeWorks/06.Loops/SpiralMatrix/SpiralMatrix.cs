@@ -52,7 +52,8 @@ namespace SpiralMatrix
                     {
                         matrix[i, j] = side * side;
                     }
-                    Console.Write("{0, 4}", matrix[i, j]);
+                    Console.Write("{0}", matrix[i, j]);
+                    Console.Write(" ");
                 }
 
                 Console.WriteLine();
