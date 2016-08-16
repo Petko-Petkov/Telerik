@@ -1,0 +1,122 @@
+html, body {
+    font-family: 'Segoe UI', 'Segoe UI Web', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0 auto;
+    width: 1000px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#header {
+    font-size: 22px;
+    margin-top: 8px; 
+}
+
+#shellHeader {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#logo {
+    display: inline-block;
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    padding: 30px; 
+    padding-right: 135px;
+    vertical-align: middle;
+}
+
+.separator {
+    display: inline-block;
+    border-left: 5px solid black;
+    height: 45px;
+    margin: 5px 5px 5px 6px;
+    vertical-align: middle;
+}
+
+#headerTitle {
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#search {
+    background-color: #0078D7; 
+}
+
+#header #search {
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    vertical-align: middle; 
+}
+
+#header #search input {
+    height: 35px;
+    width: 400px;
+}
+
+/*main*/
+
+#main {
+    padding: 0px 15px;
+}
+
+#main h1 {
+    font-size: 30px;
+    color: #333333;
+    margin: 15px 0 0 ;
+}
+
+#main h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 auto 5px auto; 
+}
+
+#main hr {
+    border: 3px solid #333333;
+}
+
+#main p {
+    text-align: justify;
+}
+
+
+#footer {
+    background-color: #505050;
+    color: #cccccc;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 30px; 
+}
+
+#language {
+    display: inline-block;
+}
+
+#copyright {
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+}
+
+#footerMenu {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+}
+
+#footerMenu li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#footerMenu li a {
+    text-decoration: none;
+    color: #cccccc;
+}

@@ -1,0 +1,55 @@
+html {
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.avengers {
+    list-style-type: none;
+    width: 500px;
+}
+
+.avengers li {
+    padding: 20px;
+    background-color: #205D99;
+    border-bottom: 3px solid #79AEE3;
+}
+
+.avengers li label {
+    display: block;
+    text-align: center;
+    color: #E4EFF9;
+    font-size: 20px;
+}
+
+.preview {
+    display: none;
+}
+
+.avengers li input {
+    display: none;
+}
+
+.avengers li input[type=radio]:checked ~ .preview {
+    display: block;
+}
+
+.avengers li input[type=radio]:checked ~ label {
+    color: #AECFEE;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+p {
+    display: inline;
+    text-align: justify;
+    color: #E4E5E1;
+}
+
+img {
+    width: 200px;
+    margin: 0 10px 5px 0;
+    border: 15px solid #79AEE3;
+    border-radius: 15px;
+    display: inline;
+    float: left;
+}

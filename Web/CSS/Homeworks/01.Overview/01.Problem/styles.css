@@ -1,0 +1,58 @@
+body {
+    background-color: #595959;
+    
+    font-family: Arial;
+    font-weight: normal;
+}
+
+tr, td {
+    padding:  0 10px 5px 0;
+}
+
+ ul {
+    list-style:  url("./disc.png") disc;
+    padding-left: 15px;
+    margin:0;
+}
+
+li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+
+th {
+    color: #91A8B7;
+    font-size: 16px;
+    text-align: left;
+}
+
+td {
+    font-size: 12px;
+    color: silver;
+}
+td.titles {
+    font-style: italic;
+    color: whitesmoke;
+}
+
+td.name {
+    color: yellow;
+}
+
+td.mail {
+    color: yellow;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+td.support {
+    color: red;
+}
+
+td.status {
+    color: orangered;
+}
